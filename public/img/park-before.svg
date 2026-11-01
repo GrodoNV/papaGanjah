@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Parque Alameda Norte antes de la rehabilitación</title>
+  <desc id="desc">Ilustración de un parque deteriorado, con pasto seco, basura, una banca rota y un árbol sin hojas.</desc>
+  <defs>
+    <linearGradient id="sky-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9dfdc"/>
+      <stop offset="0.55" stop-color="#e9e6dc"/>
+      <stop offset="1" stop-color="#f0e6d2"/>
+    </linearGradient>
+    <linearGradient id="ground-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bdb08e"/>
+      <stop offset="1" stop-color="#9d9175"/>
+    </linearGradient>
+    <linearGradient id="path-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8ccb2"/>
+      <stop offset="1" stop-color="#bfb094"/>
+    </linearGradient>
+    <radialGradient id="sunGlow-b" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e6d3a8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#e6d3a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#sky-b)"/>
+  <circle cx="960" cy="170" r="150" fill="url(#sunGlow-b)"/>
+  <circle cx="960" cy="170" r="58" fill="#e6d3a8" opacity="0.85"/>
+
+  <g fill="#ffffff" opacity="0.5">
+    <ellipse cx="250" cy="150" rx="85" ry="26"/>
+    <ellipse cx="318" cy="138" rx="58" ry="21"/>
+    <ellipse cx="690" cy="112" rx="70" ry="20"/>
+    <ellipse cx="742" cy="102" rx="42" ry="15"/>
+  </g>
+
+  <path d="M0 510c120-58 236-76 348-54 128 25 214 12 330-22 126-37 274-34 522 46v116H0Z" fill="#c2c1a9"/>
+  <path d="M0 556c150-44 270-48 390-26 143 26 249 11 372-24 142-40 280-24 438 30v70H0Z" fill="#adaa8e"/>
+
+  <g fill="#8c8c6f" opacity="0.55">
+    <path d="M90 570v-44h34v44Z"/>
+    <path d="M132 570v-62h42v62Z"/>
+    <path d="M184 570v-36h30v36Z"/>
+    <path d="M1020 570v-52h38v52Z"/>
+    <path d="M1068 570v-72h46v72Z"/>
+  </g>
+
+  <g fill="#8f9670" opacity="0.6">
+    <circle cx="330" cy="535" r="44"/>
+    <circle cx="520" cy="548" r="34"/>
+    <circle cx="760" cy="540" r="40"/>
+    <circle cx="1080" cy="536" r="42"/>
+  </g>
+
+  <rect y="575" width="1200" height="325" fill="url(#ground-b)"/>
+  <path d="M548 900 630 582h120l128 318Z" fill="url(#path-b)"/>
+  <path d="M625 900c25-100 38-202 42-316" stroke="#a99a7c" stroke-width="4" fill="none" opacity="0.55"/>
+
+  <g stroke="#7f7155" stroke-width="5" stroke-linecap="round" opacity="0.75" fill="none">
+    <path d="M660 748l38 18-22 30 46 22-18 34"/>
+    <path d="M726 812l30 12-14 26"/>
+    <path d="M592 842l26 14-12 24"/>
+  </g>
+
+  <g fill="#a49a7f">
+    <path d="M70 900c20-76 44-128 86-176 10-11 26-5 24 8-10 66-10 122 6 168Z"/>
+    <path d="M980 900c-20-72-40-122-84-168-11-11-27-4-23 10 16 52 18 106 4 158Z"/>
+  </g>
+
+  <g>
+    <path d="M961 780V650" stroke="#6d5943" stroke-width="32" stroke-linecap="round"/>
+    <path d="M961 690c-26-18-48-42-62-72M961 664c24-12 44-30 58-54M961 720c-18-8-32-20-42-34M961 636c14 4 28 2 42-6" stroke="#6d5943" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <path d="M961 618c-8-20-6-40 4-58M1030 600c10-16 26-26 44-30" stroke="#6d5943" stroke-width="9" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <g>
+    <rect x="808" y="560" width="12" height="250" rx="6" fill="#5c5b4e"/>
+    <path d="M814 560c0-42 18-74 50-92" stroke="#5c5b4e" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <rect x="850" y="452" width="48" height="26" rx="10" fill="#a39a82"/>
+    <circle cx="874" cy="465" r="8" fill="#8b826b"/>
+  </g>
+
+  <g>
+    <rect x="128" y="700" width="286" height="20" rx="10" fill="#9b7a5c"/>
+    <rect x="136" y="728" width="270" height="16" rx="8" fill="#8a6b4f" transform="rotate(-2 271 736)"/>
+    <rect x="128" y="750" width="286" height="20" rx="10" fill="#9b7a5c" transform="rotate(4 271 760)"/>
+    <rect x="150" y="772" width="14" height="58" rx="6" fill="#5a4a3b" transform="rotate(8 157 801)"/>
+    <rect x="146" y="676" width="280" height="16" rx="8" fill="#8a6b4f" transform="rotate(-3 286 684)"/>
+    <path d="M378 772l10 62" stroke="#5a4a3b" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <path d="M262 846l34-22 24 10-30 24Z" fill="#e8e2d2"/>
+    <rect x="330" y="838" width="26" height="34" rx="5" fill="#c96f56" transform="rotate(14 343 855)"/>
+    <circle cx="742" cy="862" r="15" fill="#d8d3c5"/>
+    <rect x="760" y="852" width="40" height="24" rx="5" fill="#b9b3a3" transform="rotate(-16 780 864)"/>
+    <path d="M470 872c14-10 30-10 46 0 8-12 22-16 34-8-2 16-18 26-34 22-18 8-36 2-46-14Z" fill="#cfc8b7"/>
+    <rect x="1018" y="840" width="30" height="38" rx="6" fill="#8fa0a0" transform="rotate(20 1033 859)"/>
+  </g>
+
+  <g stroke="#6e6c55" stroke-width="4" stroke-linecap="round" opacity="0.4" fill="none">
+    <path d="M222 880c14-10 30-10 46 0M742 890c16-11 34-11 52 0M1000 894c14-10 30-10 46 0"/>
+  </g>
+
+  <g fill="#6e6c55" opacity="0.5">
+    <circle cx="430" cy="882" r="4"/>
+    <circle cx="446" cy="874" r="3"/>
+    <circle cx="898" cy="886" r="4"/>
+    <circle cx="914" cy="878" r="3"/>
+  </g>
+</svg>

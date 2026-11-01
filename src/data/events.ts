@@ -1,0 +1,65 @@
+import type { EventItem } from '@/types'
+
+export const events: EventItem[] = [
+  {
+    id: 'foro-salud',
+    title: 'Foro ciudadano: cannabis, salud y regulación',
+    type: 'Gratuito',
+    date: '2026-11-14',
+    time: '10:00 — 13:00',
+    location: 'Centro Cultural Elena Garro',
+    city: 'Coyoacán, CDMX',
+    capacity: 120,
+    registered: 86,
+    description:
+      'Conversación abierta con especialistas en salud pública, derechos humanos y representantes de la sociedad civil.',
+    tag: 'Foro',
+    registrationEmail: 'eventos@papaganjah.org',
+  },
+  {
+    id: 'taller-cultivo',
+    title: 'Taller de cultivo responsable y autocuidado',
+    type: 'De costo',
+    price: '$250 MXN',
+    date: '2026-11-22',
+    time: '11:00 — 15:00',
+    location: 'Casa del Colectivo',
+    city: 'Benito Juárez, CDMX',
+    capacity: 30,
+    registered: 22,
+    description:
+      'Fundamentos de cultivo responsable, prevención de riesgos y primeros auxilios. Incluye materiales y constancia.',
+    tag: 'Taller',
+    registrationEmail: 'eventos@papaganjah.org',
+  },
+  {
+    id: 'jornada-alameda',
+    title: 'Jornada de rehabilitación: Alameda Norte',
+    type: 'Gratuito',
+    date: '2026-12-06',
+    time: '08:30 — 14:00',
+    location: 'Parque Alameda Norte',
+    city: 'Azcapotzalco, CDMX',
+    capacity: 80,
+    registered: 41,
+    description:
+      'Plantación, pintura de bancas y limpieza de áreas verdes. Trae guantes y ropa cómoda; nosotros ponemos las herramientas.',
+    tag: 'Voluntariado',
+    registrationEmail: 'eventos@papaganjah.org',
+  },
+  {
+    id: 'conversatorio-autoridades',
+    title: 'Conversatorio con autoridades: evidencia y política pública',
+    type: 'Gratuito',
+    date: '2026-12-12',
+    time: '17:00 — 19:30',
+    location: 'Facultad de Ciencias Políticas y Sociales, UNAM',
+    city: 'Coyoacán, CDMX',
+    capacity: 150,
+    registered: 63,
+    description:
+      'Mesa de diálogo sobre evidencia científica, regulación y colaboración entre colectivos y autoridades locales.',
+    tag: 'Conversatorio',
+    registrationEmail: 'eventos@papaganjah.org',
+  },
+]
